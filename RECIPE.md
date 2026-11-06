@@ -4,6 +4,8 @@ A small list under the Spaces list: each remote machine of `hc machine ls`
 with its state, and a Wake button that sends a Wake-on-LAN magic packet when
 it doesn't answer. A toast offers the same when a connected machine goes away.
 
+![Wake on LAN](preview.png)
+
 ## What you see
 
 - A block right after the `spaces` block of the sidebar, background `chrome`,
@@ -156,7 +158,8 @@ it doesn't answer. A toast offers the same when a connected machine goes away.
   has a Spaces or Wake on LAN block; it copies the mod without `__pycache__`; `uninstall.sh` backs up
   each layout it changes to `.wake-on-lan-backup/<date>-uninstall/`.
 - Block props `demo: true`: rows `laptop` (unreachable), `build-box`
-  (connected), `nas` (waking); no timer, no actions.
+  (connected), `nas` (waking); no timer, no actions. `preview.png` is a shot
+  of it, so no real machine, IP or MAC shows.
 
 ## Watch out
 

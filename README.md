@@ -1,5 +1,7 @@
 # wake-on-lan
 
+![The Wake on LAN list](preview.png)
+
 A [Herdr](https://herdr.dev) mod that wakes a sleeping remote machine with a
 Wake-on-LAN magic packet, so its spaces and agents come back.
 
